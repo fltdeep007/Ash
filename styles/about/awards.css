@@ -1,0 +1,74 @@
+
+
+.headerFont {
+    font-family: "Lucida Bright", Georgia, serif;
+}
+
+.paraFont {
+    font-family: 'Lucida Sans', Georgia, serif;
+}
+
+.AboutUSWrapper {
+    background: #3D3B3A;
+}
+
+.mainContentEle {
+    background-color: #D1CFBF;
+    opacity: 0.75;
+}
+
+.mainContentEle h1 {
+    text-align: left;
+}
+
+.brandValuesMain {
+    border-color: #BB903A;
+    box-shadow: 0 0 15px 1px #d1cfbfcb;
+}
+
+.brandValuesHeader {
+    color: #c7ba92bf;
+}
+
+.visionWrapper {
+    background: #6A7072;
+    border-color: #D1CFBF;
+}
+
+.visionHeader {
+    border-color: #D1CFBF;
+    color: #C7BA92;
+}
+
+.visionHeader h1 {
+    border-color: #D1CFBF;
+    color: #C7BA92;
+    box-shadow: 0 0 15px 1px #d1cfbfcb;
+}
+
+.visionDesc {
+    color: #D1CFBF;
+}
+
+/* awards.css */
+
+.awards-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #262828;
+  }
+  
+  @media (max-width: 600px) {
+    .awards-section {
+      padding: 1rem;
+    }
+    .awards-container {
+      flex-direction: column;
+      width: 100%;
+      padding: 0.5rem;
+    }
+  }
+  

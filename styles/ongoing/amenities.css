@@ -1,0 +1,104 @@
+/* General container styles */
+.full-screen-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #262828;
+    padding: 20px;
+    position: relative;
+}
+
+.content-container {
+    width: 90%;
+    max-width: 1200px; /* Optional max width for larger screens */
+}
+
+/* Grid layout */
+.amenities-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns layout */
+    grid-template-rows: auto auto auto; /* Three rows layout */
+    gap: 1rem; /* Space between grid items */
+}
+
+/* Title styling */
+.grid-title {
+    grid-column: span 4; /* Title spans all four columns */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align text to the left */
+    background: transparent;
+    color: #BB903A;
+    font-family: 'YourFont'; /* Replace with actual font-family if needed */
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 10px; /* Indent the title slightly */
+    border-left: 10px solid #BB903A; /* Golden line to the left of the title */
+    height: 100%; /* Makes the title take the full height of the grid area */
+}
+
+.header-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Grid items styling */
+.amenity-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 220px; /* Fixed height for the image container */
+    overflow: hidden; /* Ensures the image does not exceed its container */
+    border-radius: 0.5rem;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+/* Text overlay */
+.text-overlay {
+    position: absolute;
+    top: 0; /* Aligns the text to the bottom */
+    left: 0;   /* Aligns the text to the left */
+    color: #ffffff;
+    width: 100%; /* Full width of the image */
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding is included in the total width */
+}
+
+.image-heading {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.image-paragraph {
+    font-size: 0.7rem; /* Slightly smaller font size for the paragraph */
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .amenities-grid {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for tablets and medium screens */
+        grid-template-rows: auto auto auto auto auto; /* Adjust rows for new layout */
+    }
+}
+
+@media (max-width: 768px) {
+    .amenities-grid {
+        grid-template-columns: repeat(1, 1fr); /* One column for mobile devices */
+        grid-template-rows: auto auto auto auto auto auto auto auto auto; /* Adjust rows for new layout */
+    }
+}

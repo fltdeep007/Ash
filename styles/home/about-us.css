@@ -1,0 +1,27 @@
+.aboutUsWrapper {
+    /* height: 360px; */
+    height: auto;
+    background-color: #26282899;
+}
+
+.auHeader h2 {
+    color: #d1cfbf;
+    background-color: #6a7072;
+    border-color: #bb903a;
+}
+
+.about-us {
+    background: linear-gradient(to left, #444646B3, #767878); /* Linear gradient background */
+}
+
+.about-us-content {
+    /*border: 2px solid #bb903a; !* Yellow border *!*/
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+}
+
+.about-us-image Image {
+    border: 2px solid #bb903a; /* Yellow border */
+}
+
+

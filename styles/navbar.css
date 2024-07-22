@@ -1,0 +1,256 @@
+.navbar {
+    background-color: #313233;
+}
+
+.logo {
+    width: 90px;
+}
+
+.contactUs {
+    color: #807860;
+    background-color: #EFCF8F;
+    border: #6A7072 1px solid;
+}
+
+.navbarLink {
+    position: relative;
+    white-space: nowrap;
+    color: #807860;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.navbarLink span {
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+}
+
+.navbarLink:hover:before {
+    transform: translate3d(0, 2px, 0) scale3d(1.08, 3, 1);
+    clip-path: polygon(
+            0% 0%,
+            0% 100%,
+            50% 100%,
+            50% 0,
+            50% 0,
+            50% 100%,
+            50% 100%,
+            0 100%,
+            100% 100%,
+            100% 0%
+    );
+}
+
+.navbarLink:hover span {
+    transform: translate3d(0, -2px, 0);
+}
+
+.navbarLink:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    top: 100%;
+    left: 0;
+    pointer-events: none;
+    transform-origin: 50% 100%;
+    transition: clip-path 0.3s, transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+    clip-path: polygon(
+            0% 0%,
+            0% 100%,
+            0 100%,
+            0 0,
+            100% 0,
+            100% 100%,
+            0 100%,
+            0 100%,
+            100% 100%,
+            100% 0%
+    );
+}
+.sidebarLink span {
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+    z-index: 10;
+}
+
+.sidebarLink:hover:before {
+    transform: translate3d(0, 2px, 0) scale3d(1.08, 3, 1);
+    clip-path: polygon(
+            0% 0%,
+            0% 100%,
+            50% 100%,
+            50% 0,
+            50% 0,
+            50% 100%,
+            50% 100%,
+            0 100%,
+            100% 100%,
+            100% 0%
+    );
+    background-color: #6A7072; /* Hover effect background color */
+    z-index: 10;
+}
+
+.sidebarLink:hover span {
+    transform: translate3d(0, -2px, 0);
+    z-index: 10;
+
+}
+
+.sidebarLink:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    top: 100%;
+    left: 0;
+    pointer-events: none;
+    transform-origin: 50% 100%;
+    transition: clip-path 0.3s, transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+    clip-path: polygon(
+            0% 0%,
+            0% 100%,
+            0 100%,
+            0 0,
+            100% 0,
+            100% 100%,
+            0 100%,
+            0 100%,
+            100% 100%,
+            100% 0%
+    );
+    z-index: 10;
+}
+
+.links {
+    background-color: #313233;
+    flex-direction: column; /* Ensure vertical direction for small devices */
+    transition: max-height 0.3s ease-out; /* Smooth transition */
+    overflow: hidden;
+}
+
+.links.hidden {
+    max-height: 0; /* Collapse when hidden */
+}
+
+.links.flex {
+    max-height: 500px; /* Arbitrary high value to expand when visible */
+}
+
+@media only screen and (min-width: 640px) {
+    .logo {
+        width: 115px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .logo {
+        width: 145px;
+    }
+}
+
+.sidebar {
+    background-color: #6a7072;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.sidebarLink{
+    position: relative;
+    white-space: nowrap;
+    color: white;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;;
+}
+
+.sidebarContent {
+    padding: 24px;
+    gap: 15px;
+}
+
+.sidebarContent .logo {
+    margin-bottom: 16px;
+}
+
+.sidebarContent .navbarLink {
+    font-size: 1rem;
+    padding: 8px 0;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.socialIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Specific styles for sidebar open state */
+.sidebar.open {
+    transform: translateX(0);
+}
+
+.sidebar {
+    transform: translateX(-100%);
+}
+
+/* Hover effect for links */
+.sidebarContent .navbarLink:hover {
+    background-color: #6a7072;
+    color: #ffffff;
+}
+
+.dropdownMenu {
+    background-color: #313233;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    z-index: -1;
+    display: none;
+    flex-direction: column;
+}
+
+.dropdownMenu a {
+    color: #807860;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.dropdownMenu a:hover {
+    background-color: #404040;
+    color: #EFCF8F;
+}
+
+.dropdownMenuMobile {
+    background-color: #6a7072;
+    flex-direction: column;
+}
+
+.dropdownMenuMobile a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.dropdownMenuMobile a:hover {
+    background-color: #404040;
+    color: #EFCF8F;
+}
+
+/* Display dropdown menu on hover for large screens */
+@media (min-width: 1024px) {
+    .navbarLink:hover .dropdownMenu {
+        display: flex;
+    }
+}

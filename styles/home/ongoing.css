@@ -1,0 +1,283 @@
+.coming{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    width: auto;
+    height: 526px;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap; /* Ensure text doesn't wrap */
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 220px/200px NSimSun;
+    letter-spacing: 0px;
+    color: #0000007A;
+    opacity: 0.2;
+}
+.coming1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width: auto;
+    height: 526px;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap; /* Ensure text doesn't wrap */
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 220px/200px NSimSun;
+    letter-spacing: 0px;
+    color: #0000007A;
+    opacity: 0.2;
+}
+.coming2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    width: auto;
+    height: 526px;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap; /* Ensure text doesn't wrap */
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 220px/200px NSimSun;
+    letter-spacing: 0px;
+    color: #0000007A;
+    opacity: 0.2;
+}
+.ashiyanavill{
+    position: relative;
+    left: 10px;
+    /* UI Properties */
+    background:#D1CFBF 0% 0% no-repeat padding-box;
+    border: 1px solid #BB903A;
+    border-radius: 44px 44px 0px 0px;
+    opacity: 1;
+}
+.ashiyanavill1{
+    position: absolute;
+
+}
+.ashiyanainf{
+    position: absolute;
+
+    /* UI Properties */
+    background:#D1CFBF 0% 0% no-repeat padding-box;
+    border: 1px solid #BB903A;
+    border-radius: 44px 44px 0px 0px;
+    opacity: 1;
+}
+.ashiyanainf1{
+    position: absolute;
+
+}
+.coming3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    height: 526px;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap; /* Ensure text doesn't wrap */
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 450px NSimSun;
+    letter-spacing: 0px;
+    color: #0000007A;
+    opacity: 0.2;
+}
+.coming4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width: auto;
+    height: 526px;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap; /* Ensure text doesn't wrap */
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 400px NSimSun;
+    letter-spacing: 0px;
+    color: #0000007A;
+    opacity: 0.2;
+}
+@media only screen and (min-width: 800px)  and (max-width: 1240px) {
+    .coming3{
+        top: 60%;
+        font: normal normal normal 360px NSimSun;
+    }
+    .coming4{
+        top: 60%;
+        font: normal normal normal 360px NSimSun;
+
+    }
+}
+.villdetails{
+    position: relative;
+    top: 282px;
+    width: 390px;
+    background: #D1CFBF 0% 0% no-repeat padding-box;
+    border: 1px solid #BB903A;
+    /* border-radius: 10px; */
+    opacity: 0.65;
+}
+.villdetails2{
+    background: #D1CFBF 0% 0% no-repeat padding-box;
+    border: 1px solid #BB903A;
+    /* border-radius: 10px; */
+    opacity: 0.65;
+}
+.ashifont{
+    position: relative;
+    left: 140px;
+    font: normal normal normal 20px Lucida Bright;
+    letter-spacing: 0px;
+    color: #262828;
+    opacity: 1;
+}
+.nofloors{
+    position: relative;
+    left: 150px;
+    font: normal normal normal 13px Lucida Bright;
+    color: #262828;
+    opacity: 1;
+
+
+
+}
+.butto1{
+    position: relative;
+    left: 136px;
+    width: 72px;
+    height: 32px;
+    /* UI Properties */
+    background: #262828;
+    border: 2px solid #BB903A;
+    border-radius: 25px;
+
+    color:#D1CFBF;
+    font: normal normal normal 17px/21px Lucida Sans;
+}
+.nofloors1{
+    position: relative;
+    left: 46px;
+    font: normal normal normal 13px Lucida Bright;
+    color: #262828;
+    opacity: 1;
+
+
+
+}
+.infifont{
+    position: relative;
+    left: 36px;
+    font: normal normal normal 20px Lucida Bright;
+    letter-spacing: 0px;
+    color: #262828;
+    opacity: 1;
+}
+.butto2{
+    position: absolute;
+
+    /* UI Properties */
+    background: #D1CFBF 0% 0% no-repeat padding-box;
+    border: 1px solid #BB903A;
+    border-radius: 25px;
+
+    font-family:  Lucida Bright;
+    letter-spacing: 0px;
+    color: #262828;
+    opacity: 1;
+
+
+}
+@media only screen and (min-width: 768px ){
+    .infifont{
+        left: 104px;
+    }
+    .nofloors1{
+        left: 149px;
+    }
+    .butto1{
+        left: 209px;
+    }
+}
+@media only screen and (min-width: 768px ){
+    .ashifont{
+        left: 203px;
+    }
+    .nofloors{
+        left: 222px;
+    }
+    .butto1{
+        left: 209px;
+    }
+}
+@media only screen and (min-width: 768px ){
+    .infifont{
+        left: 104px;
+    }
+    .nofloors1{
+        left: 149px;
+    }
+    .butto1{
+        left: 209px;
+    }
+}
+@media only screen and (min-width: 1024px ){
+    .ashifont{
+        left: 228px;
+    }
+    .nofloors{
+        left: 247px;
+    }
+    .butto1{
+        left: 241px;
+    }
+}
+@media only screen and (min-width: 1024px ){
+    .infifont{
+        left: 179px;
+    }
+    .nofloors1{
+        left: 198px;
+    }
+    .butto1{
+        left: 247px;
+    }
+}
+@media only screen and (min-width: 1240px ){
+    .ashifont{
+        left: 235px;
+    }
+    .nofloors{
+        left: 253px;
+    }
+    .butto1{
+        left: 247px;
+    }
+}
+.paratext{
+    position: relative;
+    left: 224px;
+    font: normal normal normal 16px Lucida Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.paratext1{
+    position: relative;
+    left: 16px;
+    font: normal normal normal 16px Lucida Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+

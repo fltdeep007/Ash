@@ -1,0 +1,21 @@
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-button {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-button:hover {
+    background-color: #fff;
+}
+
+

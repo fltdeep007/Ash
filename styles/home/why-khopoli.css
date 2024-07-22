@@ -1,0 +1,109 @@
+.whykhopoli {
+    height: 50em;
+    background-image: url("../../public/khopoliFullOverlay.jpg");
+    background-size: cover;
+    background-position: 15% 50%;
+    background-color: #262828;
+    color: #d1cfbf;
+    font-family: "Lucida Bright", Georgia, serif;
+    opacity: 0.97;
+}
+
+.midContent {
+    height: 35em;
+}
+
+.khopoliImage {
+    height: 14rem;
+}
+
+.mainImage {
+    width: 90%;
+    /* margin: auto; */
+    height: 14rem;
+}
+
+.mainTypo {
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.497);
+    margin-top: 3%;
+    border-color: #e7e4d3;
+}
+
+.typoHeaderEle {
+    font-size: 15px;
+}
+
+.typoPara {
+    color: #bcbcbc;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: 'Lucida Sans', Georgia, serif;
+}
+
+/* md: */
+@media only screen and (min-width: 640px) {
+    .whykhopoli {
+        height: 60em;
+        background-image: url("../../public/khopoliOverlay.png");
+    }
+
+    .midContent {
+        height: 38em;
+    }
+
+    .khopoliImage {
+        height: 18rem;
+    }
+
+    .mainImage {
+        width: 80%;
+        height: 19rem;
+    }
+
+    .mainTypo {
+        width: 80%;
+        top: 31.2rem;
+        margin-top: 0%;
+        left: 6.25rem;
+    }
+
+    .typoHeaderEle {
+        font-size: 20px;
+    }
+
+    .typoPara {
+        font-size: 15px;
+        line-height: 27px;
+    }
+}
+
+/* lg: */
+@media only screen and (min-width: 1000px) {
+    .whykhopoli {
+        height: 47em;
+        background-image: url("../../public/khopoliFullOverlay.jpg");
+        background-position: 15% 85%;
+    }
+
+    .mainImage {
+        width: 45%;
+        height: 25rem;
+    }
+
+    .mainTypo {
+        width: 53%;
+        top: 12.5rem;
+        left: 43%;
+        margin-top: 0;
+    }
+    .typoHeaderEle {
+        font-size: 22px;
+    }
+
+    .typoPara {
+        font-size: 15px;
+        line-height: 27px;
+    }
+}
+

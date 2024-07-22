@@ -1,0 +1,42 @@
+.theteam{
+    padding-top: 10px;
+    background: var(--unnamed-color-d1cfbf) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-bb903a);
+    background: #D1CFBF 0% 0% no-repeat padding-box;
+    border: 1px solid #BB903A;
+    border-radius: 25px;
+    opacity: 1;
+    font: normal normal normal 26px Lucida Bright;
+    letter-spacing: 0px;
+    color: #262828;
+    opacity: 1;
+}
+.meetlead{
+    font: normal normal normal 30px/35px Lucida Bright;
+    letter-spacing: 0px;
+    color: #D1CFBF;
+    opacity: 1;
+}
+.leadersname{
+    padding-left: 20px;
+    font: normal normal normal 18px/22px Lucida Sans;
+    letter-spacing: 0px;
+    color: #D1CFBF;
+    opacity: 1;
+}
+.roles{
+    padding-left: 20px;
+    font: italic normal normal 15px/22px Lucida Sans;
+    letter-spacing: 0px;
+    color: #D1CFBF;
+    opacity: 1;
+}
+@media only screen and (max-width: 640px) {
+    .meetlead{
+        font: normal normal normal 25px Lucida Bright;
+    }
+    .leadersname{
+        font:normal normal normal 15px Lucida Sans;
+    }
+
+}

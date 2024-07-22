@@ -1,0 +1,81 @@
+.textshadow1 {
+    text-shadow: 0px 3px 6px #00000029;
+}
+.boujee3{
+    top: 48px;
+    width: 129px;
+    height: 32px;
+    background: transparent linear-gradient(90deg, #62646440 0%, #666868 50%) 0% 0% no-repeat padding-box;
+    color: #FFF;
+    border-radius: 10px 0px 0px 10px;
+    opacity: 1;
+}
+.boujee4{
+    top: 77px;
+
+    width: 155px;
+    height: 32px;
+    /* UI Properties */
+    background: transparent linear-gradient(90deg, #62646440 0%, #666868 50%) 0% 0% no-repeat padding-box;
+    border-radius: 10px 0px 0px 10px;
+    opacity: 1;
+    color: #D1CFBF;
+}
+.boujee5{
+    top: 110px;
+
+    width: 165px;
+    height: 32px;
+    /* UI Properties */
+    background: transparent linear-gradient(90deg, #62646440 0%, #666868 50%) 0% 0% no-repeat padding-box;
+    border-radius: 10px 0px 0px 10px;
+    opacity: 1;
+    color: #D1CFBF;
+
+}
+.boujee6{
+    top: 145px;
+
+    width: 180px;
+    height: 32px;
+    /* UI Properties */
+    background: transparent linear-gradient(90deg, #62646440 0%, #666868 50%) 0% 0% no-repeat padding-box;
+    border-radius: 10px 0px 0px 10px;
+    opacity: 1;
+    color: #D1CFBF;
+
+}
+.boujee1{
+    align-self: center;
+}
+
+@media only screen and (min-width: 640px) {
+    .logo {
+        width: 115px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .logo {
+        width: 145px;
+    }
+}
+
+
+
+
+.delay-1 {
+    transition-delay: 0s;
+  }
+  
+  .delay-2 {
+    transition-delay: 1s;
+  }
+  
+  .delay-3 {
+    transition-delay: 2s;
+  }
+  
+  .delay-4 {
+    transition-delay: 3s;
+  }
